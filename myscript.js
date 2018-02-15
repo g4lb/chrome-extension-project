@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>Hey,</p>
-<p id="demo"></p>
-<p>Gal</p>
-
 <script>
     var d = new Date();
     var n = d.toLocaleDateString();
     document.getElementById("demo").innerHTML = n;
 </script>
-
-
-</body>
-</html>
